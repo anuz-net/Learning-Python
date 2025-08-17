@@ -1,0 +1,5 @@
+print("Hello World")
+a = int(input('Enter the Number 1 :'))
+b = int(input("Enter the Number 2 :"))
+c = (a+b)
+print(f"{a} + {b} = {c}")
