@@ -1,0 +1,9 @@
+List,Tuple, Dist
+
+List - ["Anmi", "Manie", "Tane", 1, 1.5]
+(Mutable & edi Value CHange Garnu xa vne List)
+
+Tuple - ("Haha", "Hehe". "huhu")
+(Non Mutable & Value Change Garna Xaina vne)
+
+Dictionary
