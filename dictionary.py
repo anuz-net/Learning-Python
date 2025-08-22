@@ -1,0 +1,6 @@
+# Structure
+
+d = {
+    "Faculty" : "BCA"
+    
+}
