@@ -18,9 +18,16 @@ print("DataFrame Info:")
 print(df2.info())
 
 #Show Mean of Age
-mean_age = df2['Age'].mean()
+mean_age = df2['Age'].mean()  
 print(f"\nMean Age: {mean_age}")
 
-#Filter dataframe for Rows where Age > 25 then save the records to a new csv file
+#Filter dataframe for Rows where Age > 23 then save the records to a new csv file
+filtered_df = df2[df2['Age'] > 25]
+filtered_df.to_csv('students_above_25.csv', index=False)
+print("\nFiltered Data saved to 'students_above_25.csv'")
+print("Filtered DataFrame (Age > 23):")
+
+
+
 
 
